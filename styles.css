@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.miNav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+  font-family: "Lato", sans-serif;
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.banner {
+  position: relative;
+  width: 1355px;
+  height: auto;
+}
+.nav-link.active {
+  color: yellow;
+}
+.navDot {
+  position: absolute;
+  margin: 0;
+  float: left;
+  animation: vibrar 0.3s infinite;
+}
+@keyframes vibrar {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.about {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-image: url("images/pexels-peaky-29445973.jpg");
+  background-size: cover;
+  height: 450px;
+  color: white;
+  font-family: "Funnel Display", sans-serif;
+}
+.otro {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/pexels-stephendn-65718.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "Funnel Display", sans-serif;
+}
+._contacto {
+  padding-top: 25px;
+  color: white;
+  background-color: rgb(94, 86, 86);
+  width: 100%;
+  height: 100%px;
+  font-family: "Funnel Display", sans-serif;
+}
+
+.miForm {
+  margin-left: 250px;
+  padding-right: 10px;
+}
+
+.cat {
+  margin-right: 20px;
+}
+.cat img {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
